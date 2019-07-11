@@ -5,6 +5,11 @@
 
 int main(void){
   int i,j,k=0;
+  char name[20];
+
+  printf("What is your name?\n");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
 
   printf("Rolling the dice...\n");
   srand((unsigned int)time(NULL));
