@@ -15,6 +15,10 @@ int main(void){
     k+=j;
   }
   printf("Total value: %d\n",k);
+  if(k>7)printf("You won!\n");
+  else printf("You lost\n");
+
+
   
     return 0;
   }
