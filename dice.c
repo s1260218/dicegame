@@ -5,6 +5,11 @@
 
 int main(void){
   int i,j,k=0;
+  char name[20];
+
+  printf("What is your name?\n");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
 
   printf("Rolling the dice...\n");
   srand((unsigned int)time(NULL));
@@ -15,8 +20,8 @@ int main(void){
     k+=j;
   }
   printf("Total value: %d\n",k);
-  if(k>7)printf("You won!\n");
-  else printf("You lost\n");
+  if(k>7)printf("%s won!\n",name);
+  else printf("%s lost\n",name);
 
 
   
