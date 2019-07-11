@@ -23,7 +23,7 @@ int main(void){
   if(k>7)printf("%s won!\n",name);
   else printf("%s lost\n",name);
 
-
+ printf("See you next playing\n");
   
     return 0;
   }
